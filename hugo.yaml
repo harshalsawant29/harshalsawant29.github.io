@@ -1,0 +1,264 @@
+baseURL: "/"
+languageCode: "en-us"
+title: "Harshal Sawant"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "JSON"
+  page:
+    - "HTML"
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+
+params:
+  title: "Harshal's Portfolio"
+  description: My cool site
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/images/headshot.png"
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    defaultTheme: "dark" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "My Portfolio" # Brand name for the brand | default is the title variable
+    disableSearch: true
+    #searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Harshal"
+    subtitle: "I turn raw data into insights"
+    content: "I’m a storyteller at heart, with a technical toolkit. Whether it's building softwares, presenting insights or identifying growth opportunities, I bridge the gap between numbers and narratives."
+    image: /images/headshot.png
+    bottomImage:
+      enable: true
+    button:
+      enable: true
+      name: "Resume"
+      url: "/doc/resume.pdf"
+      download: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://www.github.com/harshalsawant29
+      customIcons:
+        - icon: /linkedin_icon.png
+          url: https://www.linkedin.com/in/harshal29
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/headshot.png"
+    content: |-
+      I've always been curious, someone who enjoys digging into details, spotting patterns, and predicting outcomes based on what’s already known. My journey began in Mechanical Engineering, where I developed a strong foundation in problem-solving. During my bachelor’s, I actively participated in hackathons and tech events—an experience that revealed something important: my logical thinking and approach to solving challenges stood out. That blend of engineering logic and technical curiosity is what led me deeper into the world of data and analytics.
+
+      With 3+ years of hands-on experience and a Master’s in Information Technology and Management from Illinois Institute of Technology, I’ve led impactful projects across different domains. I’ve mentored interns, worked directly with clients, and collaborated with cross-functional teams to solve real business problems. If something needs fixing—whether it's a broken SQL query or a process bottleneck—I’m the one who rolls up my sleeves and says, “Bring it on.”
+
+      I value a culture of learning, collaboration, and doing work that makes a difference. I’m not just here to crunch numbers—I’m here to make them speak.
+      Outside of work, you may find me on the soccer field, reading history books or listening to classical music.
+    skills:
+      enable: true
+      title: "Here are a few technologies I've been working with recently:"
+      items:
+        - "Python"
+        - "Tableau"
+        - "Power BI"
+        - "LLMs"
+        - "SQL"
+        - "AWS"
+        - "Databricks"
+        - "Spark"
+
+  # Experience
+  experience:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - job: "Data Analyst"
+        company: "MSI Express"
+        companyUrl: "https://msiexpress.com"
+        info:
+          enable: true
+          content: Interned at MSI Express for summer 2024
+        date: "May 2024 - Aug 2024"
+        content: "As a Data Analyst at MSI Express, I worked on automating data pipelines, migrating API data into Snowflake, and optimizing Redshift workflows to improve data accuracy and accessibility. I built self-service Tableau dashboards that uncovered key KPIs, leading to actions that prevented over $320K in potential risk. I also led the development of a full-stack web solution to eliminate manual tracking and helped unify WMS and ERP data, saving 40+ hours of effort monthly."
+
+      - job: "Software Developer"
+        company: "Biencaps Systems"
+        #companyUrl: "https://biencaps.com"
+        date: "Dec 2022 - Jun 2023"
+        info:
+          enable: true
+          content: I worked as a software developer for more than one year in Amazon.
+        content: "At Biencaps Systems, I collaborated in an agile team to streamline app integrations using Git and Jira, cutting deployment time by 35%. I implemented Firebase for secure data storage and real-time sync, supporting over 400 operations with 99.9% success. I also developed a user-friendly UI for a multi-platform app with 5,000+ daily users and led A/B testing efforts that improved SLA compliance and boosted user satisfaction by 35%."
+
+      - job: "Data Analyst"
+        company: "My Future Town Pvt Ltd"
+        #companyUrl: "https://myfuturetown.com"
+        date: "Aug 2020 - Nov 2022"
+        info:
+          enable: true
+          content: Worked as a Data Analyst at MFT
+        content: "I began my journey at My Future Town as a Data Intern and was later converted to a full-time role based on strong performance and initiative. During my time there, I mentored four interns in SQL, advanced Excel, and Power BI, leading to a 25% improvement in reporting turnaround. I collaborated with stakeholders to gather business requirements and implement scalable data solutions, reducing maintenance costs by 35%. By performing root cause analyses using ad-hoc SQL queries, I addressed data quality issues and cut inconsistencies by 40%. I also deployed an automated UOM conversion system in Databricks, enabling 2x faster and more reliable reporting. Additionally, I optimized complex Redshift queries and streamlined KPI reporting in Power BI, cutting delivery time by 80%."
+      
+  # Education
+  education:
+    enable: true
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "Master's in Information Technology and Management"
+        school:
+          name: "Illinois Institute of Technology, Chicago"
+          url: "https://www.iit.edu/"
+        date: "2023 - 2025"
+        GPA: "3.9 out of 4.0"
+        content: |-
+          Activities and Societies:
+            - Upsilon Pi Epsilon, Association of Computing Machinery.
+            - President of HinduYuva student chapter at Illinois tech. Organized cultural and social events.
+      - title: "Bachelor of Engineering"
+        school: 
+          name: "Univeristy of Pune"
+          url: "http://www.unipune.ac.in/"
+        date: "2018 - 2021"
+        GPA: "3.7 out of 4.0"
+        content: |-
+          Activities and Societies:
+            - General Secretary and Jt. Sports Representative.
+            - MESA Committee member.
+       
+  # Achievements
+  achievements:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: Outstanding Achievement Award
+        content: Recognized for outstanding Achievement during summer internship - 2024.
+        # url: https://www.linkedin.com/in/harshal29/overlay/1742065498883/single-media-viewer/?profileId=ACoAACIg1GsBCHIVYvRf0zC9GbpjfuLe7zaoJew
+        image: /images/certificate-msi.png
+      - title: Outstanding Academic Award
+        content: Upsilon Pi Epsilon Honor at Illinois Institute of Technology - 2025
+        image: /images/achievement.jpg
+
+  # projects
+  projects:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: InfoGenie
+        content: An AI-powered chatbot that scrapes content from user-provided URLs and dynamically selects an optimal LLM based on available compute power, enabling real-time, context-aware Q&A without the need for manual browsing.
+        image: /images/projects/genie.png
+        featured:
+          # name: Link
+          # link: https://github.com/harshalsawant29
+        badges:
+          - "HuggingFace"
+          - "LangChain"
+          - "BeautifulSoup"
+          - "Streamlit"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/harshalsawant29
+
+      - title: Amazon Products Recommender System
+        content: Developed a recommender system by implementing sentiment analysis and machine learning algorithms on Amazon’s
+                customer review dataset, comprising over 1M records for recommending 5 similar products with an accuracy of 98%.
+        image: /images/projects/amazon.png
+        featured:
+          # name: Demo
+          # link: https://django-converter.herokuapp.com
+        badges:
+          - "NLP"
+          - "Jupyter Notebook"
+          - "Machine Learning"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/harshalsawant29/recommender_system
+
+      - title: Portfolio Website
+        content: A clean and simple personal portfolio site.
+        image: /images/projects/profile_hugo.png
+        featured:
+          # name: Demo V2
+          # link: https://hugo-profile-2.netlify.app
+        badges:
+          - "Hugo"
+          - "Bootstrap"
+          - "Javascript"
+        links:
+          - icon: fab fa-github
+            url: 
+      
+      - title: Fluttter Applications
+        content: Built cross-platform applications using Flutter. A single code base can be used for a website, Android and iOS App.
+        image: /images/projects/flutter.png
+        badges:
+          - "Flutter"
+          - "Dart"
+          - "APIs"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/harshalsawant29/flutter
+
+  #Contact
+  contact:
+    enable: true
+    # title: "Custom Name"
+    content: My inbox is always open. Whether you have a question or just want to say hi, hit me up!
+    btnName: Contact Me
+    btnLink: mailto:harshaldattasawant@gmail.com
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+      # messageRows: 5-
+
+  footer:
+    socialNetworks:
+      github: https://github.com/harshalsawant29
+      linkedin: https://linkedin.com/in/harshal29
+      instagram: https://instagram.com
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>
