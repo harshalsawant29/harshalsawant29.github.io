@@ -1,4 +1,4 @@
-baseURL: "/"
+baseURL: "https://harshalsawant29.github.io/"
 languageCode: "en-us"
 title: "Harshal Sawant"
 theme: hugo-profile
@@ -7,7 +7,10 @@ theme: hugo-profile
 caches:
   images:
     dir: :cacheDir/images  # For GitHub Actions caching
-    
+
+relativeURLs: true
+canonifyURLs: true
+
 outputs:
   home:
     - "HTML"
