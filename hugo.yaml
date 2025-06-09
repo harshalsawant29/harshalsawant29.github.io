@@ -3,6 +3,11 @@ languageCode: "en-us"
 title: "Harshal Sawant"
 theme: hugo-profile
 
+
+caches:
+  images:
+    dir: :cacheDir/images  # For GitHub Actions caching
+    
 outputs:
   home:
     - "HTML"
