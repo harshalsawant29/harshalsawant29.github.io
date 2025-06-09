@@ -81,7 +81,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "/doc/resume.pdf"
+      url: "/doc/Resume.pdf"
       download: false
     socialLinks:
       fontAwesomeIcons:
