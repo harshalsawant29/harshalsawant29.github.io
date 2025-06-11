@@ -130,24 +130,15 @@ params:
         date: "May 2024 - Aug 2024"
         content: "As a Data Analyst at MSI Express, I worked on automating data pipelines, migrating API data into Snowflake, and optimizing Redshift workflows to improve data accuracy and accessibility. I built self-service Tableau dashboards that uncovered key KPIs, leading to actions that prevented over $320K in potential risk. I also led the development of a full-stack web solution to eliminate manual tracking and helped unify WMS and ERP data, saving 40+ hours of effort monthly."
 
-      - job: "Software Developer"
-        company: "Biencaps Systems"
-        #companyUrl: "https://biencaps.com"
-        date: "Dec 2022 - Jun 2023"
-        info:
-          enable: true
-          content: I worked as a software developer for more than one year in Amazon.
-        content: "At Biencaps Systems, I collaborated in an agile team to streamline app integrations using Git and Jira, cutting deployment time by 35%. I implemented Firebase for secure data storage and real-time sync, supporting over 400 operations with 99.9% success. I also developed a user-friendly UI for a multi-platform app with 5,000+ daily users and led A/B testing efforts that improved SLA compliance and boosted user satisfaction by 35%."
-
       - job: "Data Analyst"
-        company: "My Future Town Pvt Ltd"
-        #companyUrl: "https://myfuturetown.com"
-        date: "Aug 2020 - Nov 2022"
+        company: "Biencaps Systems"
+        companyUrl: "https://biencaps.com"
+        date: "Aug 2020 - Jun 2023"
         info:
           enable: true
-          content: Worked as a Data Analyst at MFT
-        content: "I began my journey at My Future Town as a Data Intern and was later converted to a full-time role based on strong performance and initiative. During my time there, I mentored four interns in SQL, advanced Excel, and Power BI, leading to a 25% improvement in reporting turnaround. I collaborated with stakeholders to gather business requirements and implement scalable data solutions, reducing maintenance costs by 35%. By performing root cause analyses using ad-hoc SQL queries, I addressed data quality issues and cut inconsistencies by 40%. I also deployed an automated UOM conversion system in Databricks, enabling 2x faster and more reliable reporting. Additionally, I optimized complex Redshift queries and streamlined KPI reporting in Power BI, cutting delivery time by 80%."
-      
+          content: I worked as a software developer.
+        content: "I began my journey at Biencaps Systems as an Intern and was later converted to a full-time role based on strong performance and initiative. During my time, I collaborated in an agile team to streamline app integrations using Git and Jira, cutting deployment time by 35%. I implemented Firebase for secure data storage and real-time sync, supporting over 400 operations with 99.9% success. I also developed a user-friendly UI for a multi-platform app with 5,000+ daily users and led A/B testing efforts that improved SLA compliance and boosted user satisfaction by 35%."
+
   # Education
   education:
     enable: true
