@@ -73,7 +73,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Harshal"
-    subtitle: "I build things for the web"
+    subtitle: "I turn raw data into insights"
     content: "I’m a storyteller at heart, with a technical toolkit. Whether it's building softwares, presenting insights or identifying growth opportunities, I bridge the gap between numbers and narratives."
     image: /images/headshot.png
     bottomImage:
