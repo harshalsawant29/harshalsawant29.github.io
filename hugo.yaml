@@ -74,7 +74,7 @@ params:
     intro: "Hi, my name is"
     title: "Harshal"
     subtitle: "I build things for the web"
-    content: "A passionate UI developer with a strong foundation in data analytics, focused on building intuitive, data-driven interfaces."
+    content: "I’m a storyteller at heart, with a technical toolkit. Whether it's building softwares, presenting insights or identifying growth opportunities, I bridge the gap between numbers and narratives."
     image: /images/headshot.png
     bottomImage:
       enable: true
@@ -97,11 +97,11 @@ params:
     title: "About Me"
     image: "/images/headshot.png"
     content: |-
-      I’ve always been someone who loves diving into details, spotting patterns, and creating solutions that just make sense. My journey started in Mechanical Engineering, where I built a strong foundation in problem-solving. While participating in hackathons and tech events during my bachelor’s, I discovered a deeper passion—not just for logic and analytics, but for designing clean, intuitive interfaces that help users do more with less effort.
+      I've always been curious, someone who enjoys digging into details, spotting patterns, and predicting outcomes based on what’s already known. My journey began in Mechanical Engineering, where I developed a strong foundation in problem-solving. During my bachelor’s, I actively participated in hackathons and tech events—an experience that revealed something important: my logical thinking and approach to solving challenges stood out. That blend of engineering logic and technical curiosity is what led me deeper into the world of data and analytics.
 
-      That blend of engineering logic, visual thinking, and curiosity naturally led me into UI development. With 2+ years of hands-on experience and a Master’s in Information Technology and Management from Illinois Institute of Technology, I’ve worked on projects that bridge data and design—from interactive dashboards to front-end solutions that turn complex datasets into seamless user experiences.
+      With 3+ years of hands-on experience and a Master’s in Information Technology and Management from Illinois Institute of Technology, I’ve led impactful projects across different domains. I’ve mentored interns, worked directly with clients, and collaborated with cross-functional teams to solve real business problems. If something needs fixing—whether it's a broken SQL query or a process bottleneck—I’m the one who rolls up my sleeves and says, “Bring it on.”
 
-      I’ve mentored interns, collaborated with cross-functional teams, and led frontend efforts where usability and performance mattered. Whether it's debugging a layout or refining a data-driven UI flow, I’m the one who says, “Let’s make this better.”
+      I value a culture of learning, collaboration, and doing work that makes a difference. I’m not just here to crunch numbers—I’m here to make them speak.
       
       Outside of work, you may find me on the soccer field, reading history books or listening to classical music.
     skills:
@@ -120,23 +120,32 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Data Analyst"
+      - job: "Business Analyst"
         company: "MSI Express"
         companyUrl: "https://msiexpress.com"
         info:
           enable: true
           content: Interned at MSI Express for summer 2024
         date: "May 2024 - Aug 2024"
-        content: "As a Data Analyst at MSI Express, I worked on automating data pipelines, migrating API data into Snowflake, and optimizing Redshift workflows to improve data accuracy and accessibility. I built self-service Tableau dashboards that uncovered key KPIs, leading to actions that prevented over $320K in potential risk. I also led the development of a full-stack web solution to eliminate manual tracking and helped unify WMS and ERP data, saving 40+ hours of effort monthly."
+        content: "As a Business Analyst at MSI Express, I worked on automating data pipelines, migrating API data into Snowflake, and optimizing Redshift workflows to improve data accuracy and accessibility. I built self-service Tableau dashboards that uncovered key KPIs, leading to actions that prevented over $320K in potential risk. I also led the development of a full-stack web solution to eliminate manual tracking and helped unify WMS and ERP data, saving 40+ hours of effort monthly."
 
       - job: "Software Engineer"
         company: "Biencaps Systems"
         companyUrl: "https://biencaps.com"
-        date: "Aug 2021 - Jun 2023"
+        date: "Dec 2022 - Jun 2023"
         info:
           enable: true
           content: I worked as a software developer.
         content: "During my time, I collaborated in an agile team to streamline app integrations using Git and Jira, cutting deployment time by 35%. I implemented Firebase for secure data storage and real-time sync. I also developed a user-friendly UI for a multi-platform app with 5,000+ daily users and led A/B testing efforts that improved SLA compliance and boosted user satisfaction by 35%."
+
+      - job: "Business Analyst"
+        company: "My Future Town"
+        companyUrl: "/"
+        date: "Aug 2020 - Nov 2022"
+        info:
+          enable: true
+          content: I worked as a Business Analyst.
+        content: "I began my journey at My Future Town as an Intern and was later converted to a full-time role based on strong performance and initiative. During my time there, I mentored four interns in SQL, advanced Excel, and Power BI, leading to a 25% improvement in reporting turnaround. I collaborated with stakeholders to gather business requirements and implement scalable data solutions, reducing maintenance costs by 35%. By performing root cause analyses using ad-hoc SQL queries, I addressed data quality issues and cut inconsistencies by 40%. I also deployed an automated UOM conversion system in Databricks, enabling 2x faster and more reliable reporting. Additionally, I optimized complex Redshift queries and streamlined KPI reporting in Power BI, cutting delivery time by 80%."
 
   # Education
   education:
