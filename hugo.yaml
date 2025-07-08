@@ -95,7 +95,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/presentation.jpg"
+    image: "/images/presentation.png"
     content: |-
       I've always been curious, someone who enjoys digging into details, spotting patterns, and predicting outcomes based on what’s already known. My journey began in Mechanical Engineering, where I developed a strong foundation in problem-solving. During my bachelor’s, I actively participated in hackathons and tech events—an experience that revealed something important: my logical thinking and approach to solving challenges stood out. That blend of engineering logic and technical curiosity is what led me deeper into the world of data and analytics.
 
